@@ -162,7 +162,7 @@ SELECT DISTINCT town_city from chch_street_address;
  # 2.4.1 create ADDRESS table and insert data from other tables
 CREATE TABLE address 
 SELECT address_id,
-	   unit_value,
+       unit_value,
        address_number,
        address_number_suffix,
        address_number_high,
@@ -206,7 +206,7 @@ FROM scirt_job;
  # 2.7.1 create JOB table and insert data from other tables
 CREATE TABLE job 
 SELECT job_id,
-	   description,
+       description,
        start_date,
        end_date,
        delivery_team_id,
